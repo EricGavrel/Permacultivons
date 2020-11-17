@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, sans-serif;
+}
+
+p{
+	font-size: 17px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+
+}
+.menu{
+	display: inline;
+	margin: 50px;
+}
+.menu li{
+	display: inline-flex;
+	list-style: none;
+	margin: 0 20px;
+	color: #85929E;
+	cursor: pointer;
+	font-size: 20px
+}
+.logo img{
+	width: 100px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+.active {
+	color: #283747 !important;
+}
+.signup-btn {
+	top: 40px;
+	right: 80px;
+	position: absolute;
+	text-decoration: none;
+	color: #5DADE2 ;
+
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color:#212F3D;
+}
+.app-text{
+	width: 50%;
+	float: left;
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.app-text p{
+	font-size: 17px;
+	width: 650px;
+	text-align: justify;
+	position: relative;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+}
+.app-picture{
+	width: 50%;
+	float: right;`
+
+}
+.app-picture img{
+	width: 80%;
+	margin-top: 12%;
+	padding-left: 50px;
+}
+.play-btn{
+	margin-left: 40px;
+	display: inline-flex;
+}
+.play-btn-inner{
+	height: 50px;
+	width: 50px;
+}
+.article1{
+	width: 50%;
+	height: 70%;
+	top: 100%;
+	left: 130px;
+	position: absolute;
+	color:#212F3D;
+}
+.article1 h2{
+	font-size: 32px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.article1 p{
+	font-size: 17px;
+	width: 650px;
+	text-align: justify;
+	position: relative;
+	margin: 30px 0 30px 0;
+	line-height: 25px;
+}
